@@ -1,0 +1,38 @@
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+  border: 5px dashed pink;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+main{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.downloads, .discriptions{
+  margin: 20px 20px;
+  /* border: 2px solid lightblue; */
+}
+
+.discriptions .about-me{
+  margin-bottom: 20px;
+  border: 2px solid lightcoral;
+}
+
+.discriptions .my-works{
+  margin-bottom: 20px;
+  border: 2px solid lightpink;
+}
+
+.discriptions .contacts{
+  margin-bottom: 20px;
+  border: 2px solid lightseagreen;
+}
+
