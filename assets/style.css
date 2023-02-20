@@ -1,38 +1,100 @@
-
-header{
+header {
   display: flex;
   justify-content: space-between;
-  margin: 20px 20px;
-  border: 5px dashed pink;
+  margin: 4px 4px 4px 4px;
+  padding: 4px 4px 4px 4px;
+  background-color: lightblue;
+  border-radius: 10px;
 }
 
-header nav ul{
+header h1 {
+  font-size: 80px;
+}
+
+header nav ul {
   display: flex;
   justify-content: space-between;
+  min-width: 300px;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-right: 10px;
 }
 
-main{
+header a {
+  color: antiquewhite;
+  font-size: 25px;
+}
+
+main {
   display: flex;
   flex-direction: row-reverse;
+  line-height: 1.5rem;
 }
 
-.downloads, .discriptions{
+.downloads,
+.discriptions {
   margin: 20px 20px;
   /* border: 2px solid lightblue; */
 }
 
-.discriptions .about-me{
-  margin-bottom: 20px;
-  border: 2px solid lightcoral;
+.discriptions h3 {
+  color: brown;
 }
 
-.discriptions .my-works{
+/* .discriptions{
+  padding-left:50%;
+  
+} */
+
+section article {
+  margin-bottom: 20px;
+  border: 2px solid lightcoral;
+  padding: 4px 5px 4px 5px;
+}
+
+/* .discriptions .my-works {
   margin-bottom: 20px;
   border: 2px solid lightpink;
 }
 
-.discriptions .contacts{
+.discriptions .contacts {
   margin-bottom: 20px;
   border: 2px solid lightseagreen;
+} */
+
+/* psuedo classes and element */
+
+header a:link {
+  text-decoration: none;
 }
 
+header a:visited {
+  text-decoration: none;
+  
+}
+
+header a:hover {
+  color: darkcyan;
+}
+
+header a:active {
+  color: brown;
+}
+
+@media screen and (max-width: 768px) {
+  header{
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav{
+    display:inline-flex;
+    align-items: center;
+  }
+}
+
+button{
+  color: brown;
+  background-color: yellow;
+  
+}
