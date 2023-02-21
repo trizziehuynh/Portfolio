@@ -43,7 +43,12 @@ main {
 }
 
 .about-wrapper{
+  display: flex;
   font-size: 20px;
+}
+
+.about-wrapper h3{
+  padding-top:50px;
 }
 
 .discriptions h3{
@@ -52,15 +57,19 @@ main {
   padding: 8px;
 }
 
-/* .discriptions{
-  padding-left:50%;
-  
-} */
 
 section article {
   margin-bottom: 20px;
   border: 2px solid lightcoral;
   padding: 4px 5px 4px 5px;
+}
+
+.about-wrapper h3{
+  padding-top:150px;
+}
+
+.intro{
+  padding-top: 20px;
 }
 
 .work-wrapper {
@@ -85,14 +94,44 @@ section article {
  }
  .forms h4{
   text-align: center;
+  font-size: 24px;
+ }
+
+ .python h4{
+  text-align: center;
+  font-size: 20px;
+ }
+
+ .python img{
+  padding-top:20px;
+  padding-left: 100px;
  }
 
 
- .python, .calculator{
+ .python .project1 {
   
   border: 5px dashed lightgrey;
-  max-width: 25%;
-  margin: 60px 20px;
+  max-width: 40%;
+  margin: 30px 5px 20px 20px;
+  padding: 20px 20px;
+ }
+
+ .calculator .project{
+  border: 5px dashed lightblue;
+  max-width: 40%;
+  margin: 3px 20px;
+  padding: 20px 20px;
+
+ }
+
+ .calculator h4{
+  text-align: center;
+  font-size: 20px;
+ }
+
+ .calculator img{
+  padding-left:100px;
+
  }
 
 /* psuedo classes and element */
@@ -134,6 +173,13 @@ footer h4{
   nav {
     display: inline-flex;
     align-items: center;
+  }
+
+  main{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+
   }
 }
 
