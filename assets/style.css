@@ -1,3 +1,4 @@
+
 header {
   display: flex;
   justify-content: space-between;
@@ -8,7 +9,7 @@ header {
 }
 
 header h1 {
-  font-size: 80px;
+  font-size: 50px;
 }
 
 header nav ul {
@@ -39,6 +40,16 @@ main {
 
 .discriptions h3 {
   color: brown;
+}
+
+.about-wrapper{
+  font-size: 20px;
+}
+
+.discriptions h3{
+  font-size: 30px;
+  padding-top: 10px;
+  padding: 8px;
 }
 
 /* .discriptions{
@@ -76,6 +87,14 @@ section article {
   text-align: center;
  }
 
+
+ .python, .calculator{
+  
+  border: 5px dashed lightgrey;
+  max-width: 25%;
+  margin: 60px 20px;
+ }
+
 /* psuedo classes and element */
 
 header a:link {
@@ -92,6 +111,18 @@ header a:hover {
 
 header a:active {
   color: brown;
+}
+
+
+
+footer a{
+  margin-left: 50%;
+
+}
+
+footer h4{
+  text-align: center;
+
 }
 
 @media screen and (max-width: 768px) {
