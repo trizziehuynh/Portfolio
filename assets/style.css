@@ -1,4 +1,3 @@
-
 header {
   display: flex;
   justify-content: space-between;
@@ -53,15 +52,29 @@ section article {
   padding: 4px 5px 4px 5px;
 }
 
-/* .discriptions .my-works {
-  margin-bottom: 20px;
-  border: 2px solid lightpink;
+.work-wrapper {
+  min-height: auto;
+  max-height: auto;
 }
 
-.discriptions .contacts {
-  margin-bottom: 20px;
-  border: 2px solid lightseagreen;
-} */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* min-height: 100px;
+  max-height: 100px;  */
+}
+
+
+
+ .forms .style{
+  margin: 20px;
+  border: 5px solid;
+  
+ }
+ .forms h4{
+  text-align: center;
+ }
 
 /* psuedo classes and element */
 
@@ -71,7 +84,6 @@ header a:link {
 
 header a:visited {
   text-decoration: none;
-  
 }
 
 header a:hover {
@@ -83,19 +95,18 @@ header a:active {
 }
 
 @media screen and (max-width: 768px) {
-  header{
+  header {
     display: flex;
     flex-direction: row;
   }
 
-  nav{
-    display:inline-flex;
+  nav {
+    display: inline-flex;
     align-items: center;
   }
 }
 
-button{
+button {
   color: brown;
   background-color: yellow;
-  
 }
