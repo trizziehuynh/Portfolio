@@ -34,7 +34,7 @@ main {
 
 .downloads,
 .discriptions {
-  margin: 20px 20px;
+  margin: 5px 5px;
   /* border: 2px solid lightblue; */
 }
 
@@ -47,9 +47,7 @@ main {
   font-size: 20px;
 }
 
-.about-wrapper h3{
-  padding-top:50px;
-}
+
 
 .discriptions h3{
   font-size: 30px;
@@ -87,9 +85,9 @@ section article {
 
 
 
- .forms .style{
-  margin: 20px;
-  border: 5px solid;
+ .forms {
+  margin: 5px;
+  box-shadow: 3px 5px lightpink, -0.5em 0 .4em olive;
   
  }
  .forms h4{
@@ -97,31 +95,51 @@ section article {
   font-size: 24px;
  }
 
+.forms img{
+  width: 500px;
+  height: 100%;
+}
+
  .python h4{
   text-align: center;
   font-size: 20px;
  }
 
- .python img{
+ /* .python img{
   padding-top:20px;
   padding-left: 100px;
- }
+ } */
+
+ .flex-container a{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+
+}
 
 
  .python .project1 {
-  
-  border: 5px dashed lightgrey;
+
+  /* display: flex;
+  justify-content: center; */
+  padding-top:50px;
+  border: 5px;
+  box-shadow: 5px 10px lightsalmon;
   max-width: 40%;
-  margin: 30px 5px 20px 20px;
-  padding: 20px 20px;
+  /* margin: 30px 5px 20px 20px; */
+  /* padding: 20px 20px; */
  }
 
  .calculator .project{
   border: 5px dashed lightblue;
   max-width: 40%;
-  margin: 3px 20px;
-  padding: 20px 20px;
+  /* margin: 3px 20px;
+  padding: 20px 20px; */
 
+ }
+
+ .project1 img{
+  width:100%;
  }
 
  .calculator h4{
@@ -130,7 +148,8 @@ section article {
  }
 
  .calculator img{
-  padding-left:100px;
+  /* padding-left:100px; */
+  width:100%;
 
  }
 
@@ -154,7 +173,7 @@ header a:active {
 
 
 
-footer a{
+/* footer a{
   margin-left: 50%;
 
 }
@@ -162,25 +181,52 @@ footer a{
 footer h4{
   text-align: center;
 
-}
+} */
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  
+  align-items: center;
 
 @media screen and (max-width: 768px) {
   header {
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
+
+    
+    
   }
 
-  nav {
+  /* nav {
     display: inline-flex;
     align-items: center;
-  }
+    
+  } */
 
   main{
     display: flex;
-    flex-direction: row;
-    width:50%;
+    flex-direction: column;
+    width:100%;
 
   }
+
+  .style img{
+    width:50px;
+  }
+
+  .forms img{
+    width:100%;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+
 }
 
 button {
