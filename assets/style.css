@@ -173,15 +173,9 @@ header a:active {
 
 
 
-/* footer a{
-  margin-left: 50%;
-
+#weatherForecast{
+  width: 100%;
 }
-
-footer h4{
-  text-align: center;
-
-} */
 
 
 footer{
@@ -227,7 +221,7 @@ footer{
   }
 
 
-}
+}}
 
 button {
   color: brown;
